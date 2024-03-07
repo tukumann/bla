@@ -8,14 +8,6 @@ export default function() {
     mobile: true
   };
   
-  /* Section Title */
-  ScrollReveal().reveal('.section-title', 
-    assignProps(
-      {
-        delay:300,distance:'0px', 
-        origin:'bottom'
-      }, defaultProps)
-  );
 
   /* Hero Section */
   ScrollReveal().reveal('.hero-title', 
